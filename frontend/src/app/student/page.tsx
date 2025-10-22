@@ -57,7 +57,7 @@ export default function StudentDashboard() {
       setTeamSuggestions(teamSuggestions.filter((t) => t.id !== id));
     }
   };
-
+//test handleCreateteam function
   const handleCreateTeam = () => {
     const teamName = prompt("Enter new team name:");
     if (teamName) {
